@@ -1,0 +1,3 @@
+SELECT * FROM tbproduto;
+
+SELECT * FROM tbproduto WHERE PRECO_LISTA >= 16.007 AND PRECO_LISTA <= 16.009;
