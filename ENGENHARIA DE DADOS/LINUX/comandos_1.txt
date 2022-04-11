@@ -1,0 +1,28 @@
+Comandos Linux:
+cd para trocar de diretorio
+cd .. para voltar de diretorio
+cata para ler um arquvio cat -n para mostrar o numero de linhas do arquivo
+ls para listar o conteudo de um diretorio -a para ver ocultos e -l para ver especificações
+echo "mensagem" > usa-se sinal de maior para salvar em um arquivo echo "Bem Vindo" > bemVindo.txt
+man e 'nome do comando' para ver documentação
+clear para limpar a tela
+pwd para ver o diretorio atual
+usar $'' usa-se caracteres especias para quebra de linha como \n
+mkdir para criar um diretorio
+rm para remover um arquivo
+rm -r para remover uma pasata -r de recursividade
+o sinal ? é usado para ler mais um nome depois do arquivo como text?.txt
+* coringa para selecionar tudo
+cp para copiar o arquivomv para mover o arquivo ou renomear
+co -r recursividade para copiar varios arquivos
+touch para mudar a data do arquivo
+date para trabalhar com data
+zip - r nome do arquivo e diretoria para compactar
+unzip -l para ver os arquivos dentro da pasta e unzip -q para retirar os arquivos 
+arquivos tar usa-se tar -cz create and zip nome do diretorio nome do arquivo com a extensão .tar.gz
+para descompactar usa-se tar-xz < ('sinal de menor') e nome do arquivo
+tar -czf e tar -xzp não precisa de redirecionamento
+comanda -v no tar pode ser usado para verbose para ver mais informações é o contrário de -1 quite
+head nome do arquivo para ler as primeiras linhas head -n 'numero' para ler a quantidade de linhas que selcionar
+tail nome do arquivo para ler as ultimas linhas do arquivo tail -n 'numer' para a quantide de linhas que quiser
+less 'nome do arquivo' para lermos um arquivo manipulando com a seta
