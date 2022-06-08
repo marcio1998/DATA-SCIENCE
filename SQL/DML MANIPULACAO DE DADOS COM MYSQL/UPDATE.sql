@@ -1,0 +1,21 @@
+use vendas_sucos;
+
+SELECT * FROM PRODUTOS;
+
+UPDATE PRODUTOS SET PRECO_LISTA = 5 WHERE CODIGO = '1000889';
+
+
+SELECT * FROM VENDEDORES;
+
+SELECT * FROM sucos_vendas.tabela_de_vendedores;
+
+
+SELECT * 
+FROM VENDEDORES A 
+INNER JOIN sucos_vendas.tabela_de_vendedores B
+ON A.MATRICULA = SUBSTRING(B.MATRICULA,3,3);
+
+
+UPDATE VENDEDORES A INNER JOIN sucos_vendas.tabela_de_vendedores B
+ON A.MATRICULA = SUBSTRING(B.MATRICULA,3,3)
+SET A.FERIAS = B.DE_FERIAS;
