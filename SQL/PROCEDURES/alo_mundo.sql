@@ -1,0 +1,6 @@
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `alo_mundo`()
+BEGIN
+SELECT 'ALO MUNDO';
+END$$
+DELIMITER ;
