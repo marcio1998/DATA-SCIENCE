@@ -1,0 +1,56 @@
+Litas Processo:
+ps,
+ps -e todos os processos
+ps -ef
+ps -ef | grep google -> busca um processo
+pstree
+
+
+Parar programa
+kill 'id do processo' -> tenta dar uma chance de parar o processo
+kill -9 'id processo' -> mata o processo
+killall -> mata todos os procesos
+Consumo de CPU:
+top
+
+
+Verificar trabalhos
+jobs
+bg 1 trazer background
+fg 1 trazer foregrounf
+numero é os programas, bg ou fg pega o ultimo
+avrir direto no backgroun firefox&
+
+Criar meu programa:
+sh excutar programa
+ls -l -> para ver permissões
+pemrissaõ de leitura r, escrita w, execução x, d - ambiente, permissões para donos e grupos de arquivo
+chmod d 'arquivo' + x -> para abiltiar execução ./arquvio -> para executar
+
+Localizar Arquvios:
+localte firefox
+sudo updatedb -> sudo usuario raiz
+
+Trocando de usuario
+which -> vericar qual diretorio esta o arquivo onde vou executar arquiv
+sudo usuario raiz para executar comandos como sudo
+su 'nome do usuario' para usar outro usuario
+
+
+Criar Usuário:
+adduser 'nome do usuario'
+chmod -o'others'rx -g'group' -u 'user'
+
+Variáveis de Ambiente:
+gedit oi &
+env
+PATH=$PATH:/home/marcio ADCINIOAR
+
+Instalação de programas apt.
+sudo apt-cache search vsftp procura
+sudo apt-get install vsftp
+
+dpkg:
+
+
+
